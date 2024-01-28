@@ -1,4 +1,4 @@
-package com.sreeginy.tairp_weather;
+package com.sreeginy.tairp_weather.Model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

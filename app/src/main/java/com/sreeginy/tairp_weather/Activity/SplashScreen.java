@@ -1,10 +1,12 @@
-package com.sreeginy.tairp_weather;
+package com.sreeginy.tairp_weather.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.sreeginy.tairp_weather.R;
 
 public class SplashScreen extends AppCompatActivity {
 

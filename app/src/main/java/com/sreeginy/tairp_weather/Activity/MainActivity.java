@@ -1,4 +1,4 @@
-package com.sreeginy.tairp_weather;
+package com.sreeginy.tairp_weather.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +18,9 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.sreeginy.tairp_weather.R;
+import com.sreeginy.tairp_weather.Model.WeatherData;
 
 import org.json.JSONException;
 import org.json.JSONObject;

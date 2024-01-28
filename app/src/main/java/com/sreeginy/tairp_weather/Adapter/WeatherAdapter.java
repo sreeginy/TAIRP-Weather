@@ -1,4 +1,4 @@
-package com.sreeginy.tairp_weather;
+package com.sreeginy.tairp_weather.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.sreeginy.tairp_weather.Model.ForecastWeatherData;
+import com.sreeginy.tairp_weather.R;
 import com.sreeginy.weather.Model.ForecastWeatherData;
 
 import java.util.List;

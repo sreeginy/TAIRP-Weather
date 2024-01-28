@@ -1,4 +1,4 @@
-package com.sreeginy.tairp_weather;
+package com.sreeginy.tairp_weather.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.sreeginy.tairp_weather.R;
+import com.sreeginy.tairp_weather.Model.WeatherData;
 import com.sreeginy.weather.Model.WeatherData;
 
 import java.text.SimpleDateFormat;

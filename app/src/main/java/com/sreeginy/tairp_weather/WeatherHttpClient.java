@@ -5,6 +5,9 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
+import com.sreeginy.tairp_weather.Model.ForecastWeatherData;
+import com.sreeginy.tairp_weather.Model.WeatherData;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
