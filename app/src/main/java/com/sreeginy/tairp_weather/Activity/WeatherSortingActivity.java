@@ -14,10 +14,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sreeginy.weather.Adapter.WeatherAdapter;
-import com.sreeginy.weather.Model.ForecastWeatherData;
-import com.sreeginy.weather.R;
-import com.sreeginy.weather.WeatherHttpClient;
+import com.sreeginy.tairp_weather.Adapter.WeatherAdapter;
+import com.sreeginy.tairp_weather.Model.ForecastWeatherData;
+import com.sreeginy.tairp_weather.R;
+import com.sreeginy.tairp_weather.WeatherHttpClient;
 
 import java.util.ArrayList;
 import java.util.Collections;

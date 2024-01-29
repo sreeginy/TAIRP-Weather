@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.sreeginy.tairp_weather.R;
 import com.sreeginy.tairp_weather.Model.WeatherData;
-import com.sreeginy.weather.Model.WeatherData;
 
 import java.text.SimpleDateFormat;
 import java.util.Collections;
@@ -92,7 +91,6 @@ public class ViewWeatherDetails extends AppCompatActivity {
             }
         });
 
-        // After sorting, update the UI or perform any additional operations
         updateUI();
     }
 }

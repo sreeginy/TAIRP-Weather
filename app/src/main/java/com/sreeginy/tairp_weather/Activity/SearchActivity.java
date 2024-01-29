@@ -15,9 +15,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.sreeginy.weather.Model.WeatherData;
-import com.sreeginy.weather.R;
-import com.sreeginy.weather.WeatherHttpClient;
+import com.sreeginy.tairp_weather.Model.WeatherData;
+import com.sreeginy.tairp_weather.R;
+import com.sreeginy.tairp_weather.WeatherHttpClient;
+
 
 public class SearchActivity extends AppCompatActivity {
 

@@ -19,14 +19,20 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.JsonHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
 import com.sreeginy.tairp_weather.R;
 import com.sreeginy.tairp_weather.Model.WeatherData;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.BreakIterator;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import cz.msebera.android.httpclient.Header;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -99,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 weatherData.setRain(rain.getText().toString());
                 weatherData.setWindSpeed(windSpeed.getText().toString());
                 weatherData.setHumidity(humidity.getText().toString());
-              weatherData.setPressure(pressure.getText().toString()); // Replace 'pressure' with the appropriate TextView for pressure
+                weatherData.setPressure(pressure.getText().toString()); // Replace 'pressure' with the appropriate TextView for pressure
 
 
                 Intent intent = new Intent(MainActivity.this, ViewWeatherDetails.class);
