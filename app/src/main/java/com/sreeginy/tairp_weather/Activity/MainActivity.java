@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         mWeatherIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Create a WeatherData object with the weather details
+
                 WeatherData weatherData = new WeatherData();
                 weatherData.setmNameOfCity(mNameOfCity.getText().toString());
                 weatherData.setmTemperature(mTemperature.getText().toString());
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 weatherData.setRain(rain.getText().toString());
                 weatherData.setWindSpeed(windSpeed.getText().toString());
                 weatherData.setHumidity(humidity.getText().toString());
-                weatherData.setPressure(pressure.getText().toString()); // Replace 'pressure' with the appropriate TextView for pressure
+
 
 
                 Intent intent = new Intent(MainActivity.this, ViewWeatherDetails.class);
